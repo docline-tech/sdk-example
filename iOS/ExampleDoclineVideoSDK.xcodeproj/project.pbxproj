@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27BF3F5C25014147007A592F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF3F5B25014147007A592F /* AppDelegate.swift */; };
+		27BF3F6025014147007A592F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF3F5F25014147007A592F /* ViewController.swift */; };
+		27BF3F6325014147007A592F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BF3F6125014147007A592F /* Main.storyboard */; };
+		27BF3F6525014149007A592F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27BF3F6425014149007A592F /* Assets.xcassets */; };
+		27BF3F6825014149007A592F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27BF3F6625014149007A592F /* LaunchScreen.storyboard */; };
+		27BF3F7325014149007A592F /* ExampleDoclineVideoSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF3F7225014149007A592F /* ExampleDoclineVideoSDKTests.swift */; };
+		27BF3F7E25014149007A592F /* ExampleDoclineVideoSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BF3F7D25014149007A592F /* ExampleDoclineVideoSDKUITests.swift */; };
+		34569DCD6A624B28A58CEC87 /* Pods_ExampleDoclineVideoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4589BB26F992AA505C62DFBF /* Pods_ExampleDoclineVideoSDK.framework */; };
+		BE649F7C068EFF0C0179A211 /* Pods_ExampleDoclineVideoSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B446E59B29E46CBEDE896D /* Pods_ExampleDoclineVideoSDKTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27BF3F6F25014149007A592F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BF3F5025014147007A592F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BF3F5725014147007A592F;
+			remoteInfo = ExampleDoclineVideoSDK;
+		};
+		27BF3F7A25014149007A592F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27BF3F5025014147007A592F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27BF3F5725014147007A592F;
+			remoteInfo = ExampleDoclineVideoSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B446E59B29E46CBEDE896D /* Pods_ExampleDoclineVideoSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleDoclineVideoSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF3F5825014147007A592F /* ExampleDoclineVideoSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleDoclineVideoSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF3F5B25014147007A592F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27BF3F5F25014147007A592F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27BF3F6225014147007A592F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27BF3F6425014149007A592F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27BF3F6725014149007A592F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27BF3F6925014149007A592F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BF3F6E25014149007A592F /* ExampleDoclineVideoSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleDoclineVideoSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF3F7225014149007A592F /* ExampleDoclineVideoSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDoclineVideoSDKTests.swift; sourceTree = "<group>"; };
+		27BF3F7425014149007A592F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27BF3F7925014149007A592F /* ExampleDoclineVideoSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleDoclineVideoSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27BF3F7D25014149007A592F /* ExampleDoclineVideoSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleDoclineVideoSDKUITests.swift; sourceTree = "<group>"; };
+		27BF3F7F25014149007A592F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289A09F1EB26B6E569FB63B2 /* Pods-ExampleDoclineVideoSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleDoclineVideoSDK.release.xcconfig"; path = "Target Support Files/Pods-ExampleDoclineVideoSDK/Pods-ExampleDoclineVideoSDK.release.xcconfig"; sourceTree = "<group>"; };
+		4589BB26F992AA505C62DFBF /* Pods_ExampleDoclineVideoSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExampleDoclineVideoSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C61116493B2ADFD4D0576BE /* Pods-ExampleDoclineVideoSDKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleDoclineVideoSDKTests.release.xcconfig"; path = "Target Support Files/Pods-ExampleDoclineVideoSDKTests/Pods-ExampleDoclineVideoSDKTests.release.xcconfig"; sourceTree = "<group>"; };
+		BED8448C32836FAD054C01A5 /* Pods-ExampleDoclineVideoSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleDoclineVideoSDK.debug.xcconfig"; path = "Target Support Files/Pods-ExampleDoclineVideoSDK/Pods-ExampleDoclineVideoSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		FE4F18AFFB6A71E0809BBE42 /* Pods-ExampleDoclineVideoSDKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExampleDoclineVideoSDKTests.debug.xcconfig"; path = "Target Support Files/Pods-ExampleDoclineVideoSDKTests/Pods-ExampleDoclineVideoSDKTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27BF3F5525014147007A592F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34569DCD6A624B28A58CEC87 /* Pods_ExampleDoclineVideoSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF3F6B25014149007A592F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE649F7C068EFF0C0179A211 /* Pods_ExampleDoclineVideoSDKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF3F7625014149007A592F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27BF3F4F25014147007A592F = {
+			isa = PBXGroup;
+			children = (
+				27BF3F5A25014147007A592F /* ExampleDoclineVideoSDK */,
+				27BF3F7125014149007A592F /* ExampleDoclineVideoSDKTests */,
+				27BF3F7C25014149007A592F /* ExampleDoclineVideoSDKUITests */,
+				27BF3F5925014147007A592F /* Products */,
+				C88B2985967A1C556101060A /* Pods */,
+				55ECBACCFABE3C6E8259EF98 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27BF3F5925014147007A592F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27BF3F5825014147007A592F /* ExampleDoclineVideoSDK.app */,
+				27BF3F6E25014149007A592F /* ExampleDoclineVideoSDKTests.xctest */,
+				27BF3F7925014149007A592F /* ExampleDoclineVideoSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27BF3F5A25014147007A592F /* ExampleDoclineVideoSDK */ = {
+			isa = PBXGroup;
+			children = (
+				27BF3F6925014149007A592F /* Info.plist */,
+				27BF3F5B25014147007A592F /* AppDelegate.swift */,
+				27BF3F6425014149007A592F /* Assets.xcassets */,
+				27BF3F6625014149007A592F /* LaunchScreen.storyboard */,
+				27BF3F6125014147007A592F /* Main.storyboard */,
+				27BF3F5F25014147007A592F /* ViewController.swift */,
+			);
+			path = ExampleDoclineVideoSDK;
+			sourceTree = "<group>";
+		};
+		27BF3F7125014149007A592F /* ExampleDoclineVideoSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				27BF3F7225014149007A592F /* ExampleDoclineVideoSDKTests.swift */,
+				27BF3F7425014149007A592F /* Info.plist */,
+			);
+			path = ExampleDoclineVideoSDKTests;
+			sourceTree = "<group>";
+		};
+		27BF3F7C25014149007A592F /* ExampleDoclineVideoSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27BF3F7D25014149007A592F /* ExampleDoclineVideoSDKUITests.swift */,
+				27BF3F7F25014149007A592F /* Info.plist */,
+			);
+			path = ExampleDoclineVideoSDKUITests;
+			sourceTree = "<group>";
+		};
+		55ECBACCFABE3C6E8259EF98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4589BB26F992AA505C62DFBF /* Pods_ExampleDoclineVideoSDK.framework */,
+				01B446E59B29E46CBEDE896D /* Pods_ExampleDoclineVideoSDKTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C88B2985967A1C556101060A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BED8448C32836FAD054C01A5 /* Pods-ExampleDoclineVideoSDK.debug.xcconfig */,
+				289A09F1EB26B6E569FB63B2 /* Pods-ExampleDoclineVideoSDK.release.xcconfig */,
+				FE4F18AFFB6A71E0809BBE42 /* Pods-ExampleDoclineVideoSDKTests.debug.xcconfig */,
+				7C61116493B2ADFD4D0576BE /* Pods-ExampleDoclineVideoSDKTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27BF3F5725014147007A592F /* ExampleDoclineVideoSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF3F8225014149007A592F /* Build configuration list for PBXNativeTarget "ExampleDoclineVideoSDK" */;
+			buildPhases = (
+				FA2BEF0C40196FD1C45C0AA5 /* [CP] Check Pods Manifest.lock */,
+				27BF3F5425014147007A592F /* Sources */,
+				27BF3F5525014147007A592F /* Frameworks */,
+				27BF3F5625014147007A592F /* Resources */,
+				E46DDD024A9004C916B2AD04 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleDoclineVideoSDK;
+			productName = ExampleDoclineVideoSDK;
+			productReference = 27BF3F5825014147007A592F /* ExampleDoclineVideoSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27BF3F6D25014149007A592F /* ExampleDoclineVideoSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF3F8525014149007A592F /* Build configuration list for PBXNativeTarget "ExampleDoclineVideoSDKTests" */;
+			buildPhases = (
+				BDCAF345A62F29A59DDA9EB3 /* [CP] Check Pods Manifest.lock */,
+				27BF3F6A25014149007A592F /* Sources */,
+				27BF3F6B25014149007A592F /* Frameworks */,
+				27BF3F6C25014149007A592F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BF3F7025014149007A592F /* PBXTargetDependency */,
+			);
+			name = ExampleDoclineVideoSDKTests;
+			productName = ExampleDoclineVideoSDKTests;
+			productReference = 27BF3F6E25014149007A592F /* ExampleDoclineVideoSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27BF3F7825014149007A592F /* ExampleDoclineVideoSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27BF3F8825014149007A592F /* Build configuration list for PBXNativeTarget "ExampleDoclineVideoSDKUITests" */;
+			buildPhases = (
+				27BF3F7525014149007A592F /* Sources */,
+				27BF3F7625014149007A592F /* Frameworks */,
+				27BF3F7725014149007A592F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27BF3F7B25014149007A592F /* PBXTargetDependency */,
+			);
+			name = ExampleDoclineVideoSDKUITests;
+			productName = ExampleDoclineVideoSDKUITests;
+			productReference = 27BF3F7925014149007A592F /* ExampleDoclineVideoSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27BF3F5025014147007A592F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Aplicaciones Salud SL";
+				TargetAttributes = {
+					27BF3F5725014147007A592F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					27BF3F6D25014149007A592F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 27BF3F5725014147007A592F;
+					};
+					27BF3F7825014149007A592F = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 27BF3F5725014147007A592F;
+					};
+				};
+			};
+			buildConfigurationList = 27BF3F5325014147007A592F /* Build configuration list for PBXProject "ExampleDoclineVideoSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27BF3F4F25014147007A592F;
+			productRefGroup = 27BF3F5925014147007A592F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27BF3F5725014147007A592F /* ExampleDoclineVideoSDK */,
+				27BF3F6D25014149007A592F /* ExampleDoclineVideoSDKTests */,
+				27BF3F7825014149007A592F /* ExampleDoclineVideoSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27BF3F5625014147007A592F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BF3F6825014149007A592F /* LaunchScreen.storyboard in Resources */,
+				27BF3F6525014149007A592F /* Assets.xcassets in Resources */,
+				27BF3F6325014147007A592F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF3F6C25014149007A592F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF3F7725014149007A592F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDCAF345A62F29A59DDA9EB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleDoclineVideoSDKTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E46DDD024A9004C916B2AD04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleDoclineVideoSDK/Pods-ExampleDoclineVideoSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExampleDoclineVideoSDK/Pods-ExampleDoclineVideoSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExampleDoclineVideoSDK/Pods-ExampleDoclineVideoSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA2BEF0C40196FD1C45C0AA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExampleDoclineVideoSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27BF3F5425014147007A592F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BF3F6025014147007A592F /* ViewController.swift in Sources */,
+				27BF3F5C25014147007A592F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF3F6A25014149007A592F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BF3F7325014149007A592F /* ExampleDoclineVideoSDKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27BF3F7525014149007A592F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27BF3F7E25014149007A592F /* ExampleDoclineVideoSDKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27BF3F7025014149007A592F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BF3F5725014147007A592F /* ExampleDoclineVideoSDK */;
+			targetProxy = 27BF3F6F25014149007A592F /* PBXContainerItemProxy */;
+		};
+		27BF3F7B25014149007A592F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27BF3F5725014147007A592F /* ExampleDoclineVideoSDK */;
+			targetProxy = 27BF3F7A25014149007A592F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27BF3F6125014147007A592F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BF3F6225014147007A592F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27BF3F6625014149007A592F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27BF3F6725014149007A592F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27BF3F8025014149007A592F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27BF3F8125014149007A592F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27BF3F8325014149007A592F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED8448C32836FAD054C01A5 /* Pods-ExampleDoclineVideoSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22NRS8X4JF;
+				EXCLUDED_ARCHS = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = ExampleDoclineVideoSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = docline.sdk.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Debug;
+		};
+		27BF3F8425014149007A592F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 289A09F1EB26B6E569FB63B2 /* Pods-ExampleDoclineVideoSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22NRS8X4JF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				INFOPLIST_FILE = ExampleDoclineVideoSDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = docline.sdk.example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
+			};
+			name = Release;
+		};
+		27BF3F8625014149007A592F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE4F18AFFB6A71E0809BBE42 /* Pods-ExampleDoclineVideoSDKTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22NRS8X4JF;
+				INFOPLIST_FILE = ExampleDoclineVideoSDKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = docline.ExampleDoclineVideoSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleDoclineVideoSDK.app/ExampleDoclineVideoSDK";
+			};
+			name = Debug;
+		};
+		27BF3F8725014149007A592F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C61116493B2ADFD4D0576BE /* Pods-ExampleDoclineVideoSDKTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22NRS8X4JF;
+				INFOPLIST_FILE = ExampleDoclineVideoSDKTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = docline.ExampleDoclineVideoSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExampleDoclineVideoSDK.app/ExampleDoclineVideoSDK";
+			};
+			name = Release;
+		};
+		27BF3F8925014149007A592F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22NRS8X4JF;
+				INFOPLIST_FILE = ExampleDoclineVideoSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = docline.ExampleDoclineVideoSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExampleDoclineVideoSDK;
+			};
+			name = Debug;
+		};
+		27BF3F8A25014149007A592F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 22NRS8X4JF;
+				INFOPLIST_FILE = ExampleDoclineVideoSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = docline.ExampleDoclineVideoSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExampleDoclineVideoSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27BF3F5325014147007A592F /* Build configuration list for PBXProject "ExampleDoclineVideoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF3F8025014149007A592F /* Debug */,
+				27BF3F8125014149007A592F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF3F8225014149007A592F /* Build configuration list for PBXNativeTarget "ExampleDoclineVideoSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF3F8325014149007A592F /* Debug */,
+				27BF3F8425014149007A592F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF3F8525014149007A592F /* Build configuration list for PBXNativeTarget "ExampleDoclineVideoSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF3F8625014149007A592F /* Debug */,
+				27BF3F8725014149007A592F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27BF3F8825014149007A592F /* Build configuration list for PBXNativeTarget "ExampleDoclineVideoSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27BF3F8925014149007A592F /* Debug */,
+				27BF3F8A25014149007A592F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27BF3F5025014147007A592F /* Project object */;
+}
