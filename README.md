@@ -27,5 +27,9 @@ Execute from the project's root folder.
 `$ sh build_script.sh -t cordova -p ios`
 
 
-## Ionic - Steps to run (Coming soon)
+## Ionic
+We can make a bash script for simplify this process, the -p flag is the platform (ios  or android).
+Execute from the project's root folder.
+
+`$ sh build_script.sh -t ionic -p ios`
 
