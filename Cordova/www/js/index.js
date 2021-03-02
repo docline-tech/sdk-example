@@ -37,7 +37,8 @@ function join() {
     docline.addEventListener(eventId, consultationJoinSuccess);
     docline.addEventListener(eventId2, updatedCameraStatus);
     docline.setHandleError(handleError);
-    docline.join(code);
+    let apiURL = "https://api-url";
+    docline.join(code, apiURL);
 }
 
 function handleError(error) {

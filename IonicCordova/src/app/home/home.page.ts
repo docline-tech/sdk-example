@@ -16,7 +16,8 @@ export class HomePage {
    */
   join() {
     this.configureEventAndError();
-    docline.join(this.code);
+    let apiURL: string = "https://api-url";
+    docline.join(this.code, apiURL);
   }
 
   /**

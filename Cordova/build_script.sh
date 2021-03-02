@@ -1,7 +1,6 @@
-while getopts t:p: flag
+while getopts p: flag
 do
     case "${flag}" in
-        t) type=${OPTARG};;
         p) platform=${OPTARG};;
     esac
 done
@@ -17,15 +16,7 @@ sudo rm -Rf node_modules/cordova-plugin-docline-sdk
 # Copy plugins/cordova-plugin-docline-sdk to node_modules/cordova-plugin-docline-sdk
 cp -Rf plugins/cordova-plugin-docline-sdk node_modules/cordova-plugin-docline-sdk
 
-typeLowercase=$(echo "$type" | tr '[:upper:]' '[:lower:]')
-
-if [ "$typeLowercase" == "ionic" ];
-then
-    # Run
-    ionic cordova run
-else
-    # Add platform iOS/Android
-    cordova platform add $platformLowercase
-    # Run
-    cordova run
-fi
+# Add platform iOS/Android
+cordova platform add $platformLowercase
+# Run
+cordova run

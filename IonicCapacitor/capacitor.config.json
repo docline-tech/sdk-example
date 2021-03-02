@@ -1,0 +1,13 @@
+{
+  "appId": "docline.sdk.example",
+  "appName": "IonicCapExampleDoclineSDK",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  },
+  "cordova": {}
+}

@@ -1,5 +1,5 @@
 {
-  "name": "ionic-example",
+  "name": "IonicCordovaExampleDoclineSDK",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -40,7 +40,7 @@
     "cordova-ios": "^6.2.0",
     "cordova-plugin-add-swift-support": "^2.0.2",
     "cordova-plugin-device": "2.0.2",
-    "cordova-plugin-docline-sdk": "^0.2.1",
+    "cordova-plugin-docline-sdk": "^0.4.0",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^4.0.0",
     "cordova-plugin-splashscreen": "5.0.2",

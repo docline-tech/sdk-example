@@ -1,8 +1,6 @@
 # Examples Docline SDK
-
-## Android - Steps to run (Coming soon)
-
-## iOS - Steps to run
+![](https://drive.google.com/uc?export=view&id=1uPXUx1rg8sYWyRu2Q9UNvW2nwaQEVRMS)
+## iOS
 ### Install dependecies
 
 `$ pod install`
@@ -24,12 +22,16 @@ Docline.join(setupData, options: options, delegate: self)
 We can make a bash script for simplify this process, the -p flag is the platform (ios  or android).
 Execute from the project's root folder.
 
-`$ sh build_script.sh -t cordova -p ios`
+`$ sh build_script.sh -p ios`
 
-
-## Ionic
+## Ionic - Cordova
 We can make a bash script for simplify this process, the -p flag is the platform (ios  or android).
 Execute from the project's root folder.
 
-`$ sh build_script.sh -t ionic -p ios`
+`$ sh build_script.sh -p ios`
 
+## Ionic - Capacitor
+We can make a bash script for simplify this process, the -p flag is the platform (ios  or android).
+Execute from the project's root folder.
+
+`$ sh build_script.sh -p ios`
