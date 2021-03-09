@@ -20,12 +20,12 @@ export class HomePage {
   join() {
     this.configureEventAndError();
 
-    let apiURL = "https://api-url";
+    let apiURL = "https://dev-api-video.docline.es";
     
     DoclineSDK.join({
       code: this.code,
       path: apiURL
-    }).catch(this.handleError);
+    })
   }
 
 
@@ -41,6 +41,9 @@ export class HomePage {
     DoclineSDK.addListener( eventId , this.consultationJoinSuccess);
     DoclineSDK.addListener( eventId2 , this.updatedCameraStatus);
     DoclineSDK.addListener( eventId3 , this.consultationTerminated);
+
+    let eventError = EventId.error
+    DoclineSDK.addListener( eventError , this.handleError);
   }
 
   handleError(error) {
