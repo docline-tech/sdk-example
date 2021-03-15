@@ -1,7 +1,9 @@
 import { Component } from '@angular/core';
+
+import { DoclineSDKPlugin, ErrorData, ErrorType, EventData, EventId } from 'capacitor-plugin-docline-sdk';
 import { Plugins } from '@capacitor/core';
 const { DoclineSDK } = Plugins;
-import { EventId, ErrorType } from 'capacitor-plugin-docline-sdk';
+const docline: DoclineSDKPlugin = DoclineSDK as DoclineSDKPlugin;
 
 @Component({
   selector: 'app-home',
@@ -12,41 +14,35 @@ export class HomePage {
   code: string = "";
 
   constructor() {}
-
+  
   /**
    * join handle action
    */
-
+  
   join() {
     this.configureEventAndError();
 
-    let apiURL = "https://dev-api-video.docline.es";
+    let apiURL: string = "https://api-url";
     
-    DoclineSDK.join({
+    docline.join({
       code: this.code,
       path: apiURL
-    })
+    });    
   }
-
 
   /**
    * DoclineSDK Logic
    */
 
   configureEventAndError() {
-    let eventId = EventId.consultationJoinSuccess;    
-    let eventId2 = EventId.updatedCameraStatus;
-    let eventId3 = EventId.consultationTerminated;
-
-    DoclineSDK.addListener( eventId , this.consultationJoinSuccess);
-    DoclineSDK.addListener( eventId2 , this.updatedCameraStatus);
-    DoclineSDK.addListener( eventId3 , this.consultationTerminated);
-
-    let eventError = EventId.error
-    DoclineSDK.addListener( eventError , this.handleError);
+    docline.addListener(EventId.consultationJoinSuccess, this.consultationJoinSuccess);
+    docline.addListener(EventId.updatedCameraStatus, this.updatedCameraStatus);
+    docline.addListener(EventId.consultationTerminated, this.consultationTerminated);
+    docline.addListener(EventId.error, this.handleError);
+    docline.addListener(EventId.participantConnected, this.participantConnected);
   }
 
-  handleError(error) {
+  handleError(error: ErrorData) {
     
     switch (error.type) {
       case ErrorType.unauthorizedError:
@@ -74,16 +70,19 @@ export class HomePage {
     }    
   }
 
-  consultationJoinSuccess(info: any) {
-    console.log(`consultationJoinSuccess: ${JSON.stringify(info)}`);
+  consultationJoinSuccess(event: EventData) {
+    console.log(`consultationJoinSuccess: ${JSON.stringify(event)}`);
   }
 
-  updatedCameraStatus(data) {
-    console.log(`updatedCameraState: { eventId: ${data.eventId}, screenId: ${data.screenId}, isEnabled: ${data.isEnabled} }`);
+  updatedCameraStatus(event: EventData) {
+    console.log(`updatedCameraState: { eventId: ${event.eventId}, screenId: ${event.screenId}, isEnabled: ${event.isEnabled} }`);
   }
 
+  consultationTerminated(event: EventData) {
+    console.log(`consultationTerminated: ${JSON.stringify(event)}`);
+  }
 
-  consultationTerminated(info: any) {
-    console.log(`consultationTerminated: ${JSON.stringify(info)}`);
+  participantConnected(event: EventData) {
+    console.log(`{eventId: ${event.eventId}, type: ${event.participantType}}`);
   }
 }
