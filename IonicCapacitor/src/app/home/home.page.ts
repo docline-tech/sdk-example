@@ -23,10 +23,12 @@ export class HomePage {
     this.configureEventAndError();
 
     let apiURL: string = "https://api-url";
-    
+    let color = "#0a73ba"
+
     docline.join({
       code: this.code,
-      path: apiURL
+      path: apiURL,
+      color: color
     });    
   }
 
