@@ -1,0 +1,7 @@
+{
+  "name": "IonicCap3ExampleDoclineSDK",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
