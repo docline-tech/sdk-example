@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 import { DoclineSDKPlugin, ErrorData, ErrorType, EventData, EventId } from 'capacitor-plugin-docline-sdk';
-// import { Plugins } from '@capacitor/core';
 import { DoclineSDK } from 'capacitor-plugin-docline-sdk';
 const docline: DoclineSDKPlugin = DoclineSDK as DoclineSDKPlugin;
 

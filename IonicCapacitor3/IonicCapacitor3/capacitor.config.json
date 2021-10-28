@@ -1,6 +1,6 @@
 {
 	"appId": "io.ionic.starter",
-	"appName": "IonicCap3ExampleDoclineSDK",
+	"appName": "IonicCapacitor3",
 	"webDir": "www",
 	"bundledWebRuntime": false
 }
