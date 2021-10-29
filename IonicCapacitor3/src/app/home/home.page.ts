@@ -21,7 +21,7 @@ export class HomePage {
   join() {
     this.configureEventAndError();
 
-    let apiURL: string = "https://apivideo-b2b-dev.docline.eu/apivideo";
+    let apiURL: string = "https://api-url";
     let color = "#0a73ba"
 
     docline.join({
