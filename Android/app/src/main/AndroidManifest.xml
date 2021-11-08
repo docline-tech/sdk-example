@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="io.docline.sdk.videoconsultation.example">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
     <application
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
