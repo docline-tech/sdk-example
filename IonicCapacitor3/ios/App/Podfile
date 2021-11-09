@@ -13,7 +13,7 @@ def capacitor_pods
   pod 'CapacitorHaptics', :path => '../../node_modules/@capacitor/haptics'
   pod 'CapacitorKeyboard', :path => '../../node_modules/@capacitor/keyboard'
   pod 'CapacitorStatusBar', :path => '../../node_modules/@capacitor/status-bar'
-  pod 'CapacitorPluginDoclineSdk', :path => '../../../../capacitor-plugin-sdk'
+  pod 'CapacitorPluginDoclineSdk', :path => '../../node_modules/capacitor-plugin-docline-sdk'
 end
 
 target 'App' do

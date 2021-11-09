@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 
 import { DoclineSDKPlugin, ErrorData, ErrorType, EventData, EventId } from 'capacitor-plugin-docline-sdk';
-// import { Plugins } from '@capacitor/core';
 import { DoclineSDK } from 'capacitor-plugin-docline-sdk';
 const docline: DoclineSDKPlugin = DoclineSDK as DoclineSDKPlugin;
 
@@ -22,7 +21,7 @@ export class HomePage {
   join() {
     this.configureEventAndError();
 
-    let apiURL: string = "https://apivideo-b2b-dev.docline.eu/apivideo";
+    let apiURL: string = "https://api-url";
     let color = "#0a73ba"
 
     docline.join({
