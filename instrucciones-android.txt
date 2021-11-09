@@ -1,0 +1,20 @@
+COMO PROBAR EL PLUGIN VIDEOCONSULTA DE CAPACITOR CON UN PROYECTO IONIC
+
+## PARA GENERAR PROYECTO ANDROID
+1. 'npm install' -> instalar npm
+2. 'npm run build' -> para construir el proyecto (la carpeta del plugin de videoconsulta de capacitor debe estar al mismo nivel que esta de ejemplo) 
+3. 'ionic capacitor build android' -> para abrir el android studio y lanzar la app
+
+## PARA HACER FUNCIONAR EL PROYECTO
+1. añadir las siguientes dependencias en el bloque allprojects del fichero build.gradle del root del proyecto
+´´´
+allprojects {
+    repositories {
+        ...
+        maven { url 'https://nexus.docline.com/repository/maven-public/' }
+        maven { url 'https://tokbox.bintray.com/maven' }
+    }
+}
+´´´
+
+
