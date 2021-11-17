@@ -1,9 +1,8 @@
 package io.docline.sdk.videoconsultation.example
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.view.View
+import androidx.appcompat.app.AppCompatActivity
 import docline.doclinevideosdk.DoclineVideocallView
 import docline.doclinevideosdk.core.listeners.ArchiveListener
 import docline.doclinevideosdk.core.listeners.ChatListener
@@ -33,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         // URL del servidor de la videollamada
         options["serverURL"] = SERVER_URL
         // [Opcional] para habilitar la setupScreen
-        options["enableSetupScreen"] = true
+        options["enableSetupScreen"] = SHOW_SETUP_SCREEN
 
         // connectarmos con la videollamada y los parámetros
         doclineVideoCall.join(options)
@@ -50,6 +49,7 @@ class MainActivity : AppCompatActivity() {
 
         override fun consultationTerminated(screenView: ScreenView) {
             Log.i(TAG, "consultationTerminated(${screenView})")
+            finish()
         }
 
         override fun show(screenView: ScreenView) {
@@ -123,7 +123,8 @@ class MainActivity : AppCompatActivity() {
     companion object {
         const val TAG = "sdk-video-example"
 
-        const val SERVER_URL = "https://apivideo-b2b-dev.docline.eu/apivideo"
-        const val ROOM_CODE = "00587817"
+        const val SERVER_URL = "your-url-here"
+        const val ROOM_CODE = "your-code-here"
+        const val SHOW_SETUP_SCREEN = true
     }
 }
