@@ -21,7 +21,7 @@ export class HomePage {
   join() {
     this.configureEventAndError();
 
-    let apiURL: string = "https://api-url";
+    let apiURL: string = "https://pre-apivideo-savia.docline.es/apivideo";
     let color = "#0a73ba"
 
     docline.join({
@@ -41,6 +41,7 @@ export class HomePage {
     docline.addListener(EventId.consultationTerminated, this.consultationTerminated);
     docline.addListener(EventId.error, this.handleError);
     docline.addListener(EventId.participantConnected, this.participantConnected);
+    docline.addListener(EventId.consultationExit, this.consultationExit);
   }
 
   handleError(error: ErrorData) {
@@ -85,5 +86,9 @@ export class HomePage {
 
   participantConnected(event: EventData) {
     console.log(`{eventId: ${event.eventId}, type: ${event.participantType}}`);
+  }
+
+  consultationExit(event: EventData) {
+    console.log(`{eventId: ${event.eventId}, type: ${event.userType}}`);
   }
 }
