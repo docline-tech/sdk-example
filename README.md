@@ -3,7 +3,7 @@
 ## iOS
 ### Install dependecies
 
-`$ pod install`
+`$ pod install` 
 
 Open the Docline workspace file with Xcode
 
