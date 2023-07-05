@@ -12,4 +12,4 @@ npm install
 # Build
 npm run build
 # Run
-ionic capacitor build "$platformLowercase"
+ionic capacitor run "$platformLowercase"
